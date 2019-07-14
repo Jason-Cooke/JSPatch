@@ -247,13 +247,13 @@ Extensions can be added dynamiclly in JS, which is recommended:
 ```js
 require('JPEngine').addExtensions(['JPInclude', 'JPCGTransform'])
 
-// `include()` and `CGAffineTransform` is avaliable now.
+// `include()` and `CGAffineTransform` is available now.
 ```
 
 You can create your own extension to support custom struct type and C methods in project, see the wiki page for more details: [Adding new extensions](https://github.com/bang590/JSPatch/wiki/Adding-new-extensions)
 
 
-## Enviroment
+## Environment
 - iOS 7+, forward compatibility with iOS 6
 - JavaScriptCore.framework
 - Support armv7/armv7s/arm64
